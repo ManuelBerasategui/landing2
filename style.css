@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
 .logo{
     width: 200px;
+}
+
+.user{
+    width: 50px;
+}
+
+.headphones{
+    width: 50px;
+}
+
+.glass{
+    width: 50px;
+}
+
+.calendar{
+    width: 50px;
 }
