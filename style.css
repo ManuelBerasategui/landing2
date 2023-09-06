@@ -25,6 +25,13 @@
 .but1{
     margin-left: 500px;
     margin-right: 75px;
+    margin-bottom: 50px;
+    width: 125px;
+    height: 40px;
+    background-color: white;
+    border-color: green;
+    color: green;
+    font-family:'Roboto', sans-serif;
 }
 
 .about{
