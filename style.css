@@ -15,11 +15,19 @@
 }
 
 .glass{
-    width: 50px;
+    width: 35px;
+    position: relative;
+    top: -775px;
+    left: -880px;
+    z-index: 3;
 }
 
 .calendar{
-    width: 50px;
+    width: 60px;
+    position: relative;
+    top: -765px;
+    left: -420px;
+    z-index: 3;
 }
 
 .but1{
@@ -29,9 +37,11 @@
     width: 125px;
     height: 40px;
     background-color: white;
-    border-color: green;
+    border: 2px solid #196d16;
     color: green;
     font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
 }
 
 .about{
@@ -51,3 +61,64 @@
     font-size:0 !important;
     margin-right: 75px;
   }
+
+.rectangle{
+    z-index: 2;
+    position: relative;
+    top: -750px;
+    left: 100px;
+    width: 1000px;
+    height: 80px;
+    border: 0;
+}
+
+.back{
+    z-index: 1;
+}
+
+.stick{
+    height: 80px;
+    width: 15px;
+    position: relative;
+    top: -750px;
+    left: -500px;
+    z-index: 3;
+}
+
+.location{
+    z-index: 3;
+    position: relative;
+    top: -835px;
+    left: 180px;
+}
+
+.search{
+    z-index: 3;
+    position: relative;
+    top: -835px;
+    left: 180px;
+}
+
+.when{
+    z-index: 3;
+    position: relative;
+    top: -900px; 
+    left: 690px;
+}
+
+.time{
+    z-index: 3;
+    position: relative;
+    top: -900px; 
+    left: 690px;
+}
+
+.explore{
+    z-index: 3;
+    position: relative;
+    top: -965px; 
+    left: 890px;
+    height: 40px;
+    width: 180px;
+    background-color: #348053;
+}
